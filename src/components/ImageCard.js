@@ -13,6 +13,7 @@ class ImageCard extends React.Component {
     this.imageRef.current.addEventListener("load", this.setSpans);
   }
 
+  // CSS card spans
   setSpans = () => {
     const height = this.imageRef.current.clientHeight;
 
